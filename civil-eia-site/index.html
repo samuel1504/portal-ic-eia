@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Ingeniería Civil EIA</title>
+<meta name="description" content="Proyectos, semilleros, prácticas profesionales y documentos de la carrera de Ingeniería Civil en la EIA, en un solo lugar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=Big+Shoulders+Text:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="regmark regmark--tl" aria-hidden="true"></div>
+<div class="regmark regmark--tr" aria-hidden="true"></div>
+
+<header class="titlebar">
+  <div class="titlebar__mark">EIA · CIVIL</div>
+  <nav class="titlebar__nav" id="site-nav">
+    <a href="#proyectos">Proyectos</a>
+    <a href="#semilleros">Semilleros</a>
+    <a href="#practicas">Prácticas</a>
+    <a href="#documentos">Documentos</a>
+    <a href="#vida-profesional">Vida profesional</a>
+    <a href="#participar">Participar</a>
+  </nav>
+  <button class="titlebar__toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__meta">
+      <span>LÁMINA 00</span>
+      <span>PORTAL · PILOTO</span>
+      <span>V.0.1 — 2026-II</span>
+    </div>
+    <h1 class="hero__title">Un solo lugar<br>para la carrera de<br>Ingeniería Civil</h1>
+    <p class="hero__lede">
+      Proyectos que ya no se quedan guardados en un computador. Semilleros, prácticas
+      y documentos que antes había que preguntar por WhatsApp. Un borrador construido
+      por la representación estudiantil para ver si vale la pena hacerlo de verdad.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+      <a class="btn btn--ghost" href="#participar">Cuéntanos tu idea</a>
+    </div>
+    <p class="hero__note">
+      Este sitio es un experimento del período 2026&ndash;2027, pensado para
+      ~130 estudiantes del programa. Si te sirve, seguimos construyéndolo contigo.
+    </p>
+  </section>
+
+  <!-- LÁMINA 01 — PROYECTOS -->
+  <section class="sheet" id="proyectos">
+    <div class="sheet__head">
+      <span class="sheet__tag">LÁMINA 01</span>
+      <h2 class="sheet__title">Vitrina de proyectos</h2>
+      <p class="sheet__intro">
+        ¿Cuántos trabajos buenos terminan guardados en un computador después de
+        entregarlos? Este es el espacio para que se vean, se compartan y alguien más
+        aprenda de ellos.
+      </p>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="card card--project">
+        <div class="card__tag">Estructuras · 6to semestre</div>
+        <h3>Análisis de pórtico en concreto reforzado</h3>
+        <p>Modelo y verificación de un pórtico de tres niveles, con comparación entre método de rigidez y software comercial.</p>
+        <div class="card__meta">
+          <span>[Nombre del estudiante]</span>
+          <span class="card__badge">Ejemplo</span>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__tag">Hidráulica · 5to semestre</div>
+        <h3>Diseño de red de alcantarillado para un barrio piloto</h3>
+        <p>Dimensionamiento de tubería y verificación de pendientes mínimas para una zona residencial simulada.</p>
+        <div class="card__meta">
+          <span>[Nombre del estudiante]</span>
+          <span class="card__badge">Ejemplo</span>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__tag">Geotecnia · 7mo semestre</div>
+        <h3>Capacidad portante de suelo en zona de ladera</h3>
+        <p>Ensayo y cálculo de capacidad portante aplicado a un lote real, con recomendaciones de cimentación.</p>
+        <div class="card__meta">
+          <span>[Nombre del estudiante]</span>
+          <span class="card__badge">Ejemplo</span>
+        </div>
+      </article>
+
+      <article class="card card--project card--placeholder">
+        <div class="card__tag">Tu proyecto aquí</div>
+        <h3>El próximo puede ser el tuyo</h3>
+        <p>Trabajos de curso, semilleros o proyectos personales: si te tomó esfuerzo, merece verse.</p>
+        <a class="card__link" href="#participar">Publicar un proyecto</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- LÁMINA 02 — SEMILLEROS -->
+  <section class="sheet sheet--alt" id="semilleros">
+    <div class="sheet__head">
+      <span class="sheet__tag">LÁMINA 02</span>
+      <h2 class="sheet__title">Semilleros de investigación</h2>
+      <p class="sheet__intro">
+        Grupos donde estudiantes empiezan a investigar antes de graduarse. Esta es la
+        oferta de ejemplo &mdash; la idea es reemplazarla con la información real de cada semillero.
+      </p>
+    </div>
+
+    <ul class="seedbed-list">
+      <li class="seedbed">
+        <div class="seedbed__area">Materiales de construcción</div>
+        <h3>Semillero de Materiales Sostenibles <span class="tag-example">Ejemplo</span></h3>
+        <p>Estudio de agregados reciclados y mezclas de concreto de bajo impacto ambiental.</p>
+        <span class="seedbed__contact">Contacto: [profesor / correo]</span>
+      </li>
+      <li class="seedbed">
+        <div class="seedbed__area">Estructuras</div>
+        <h3>Semillero de Ingeniería Sísmica <span class="tag-example">Ejemplo</span></h3>
+        <p>Modelado de respuesta estructural ante eventos sísmicos y refuerzo de edificaciones antiguas.</p>
+        <span class="seedbed__contact">Contacto: [profesor / correo]</span>
+      </li>
+      <li class="seedbed">
+        <div class="seedbed__area">Recursos hídricos</div>
+        <h3>Semillero de Hidrología Urbana <span class="tag-example">Ejemplo</span></h3>
+        <p>Modelos de drenaje urbano y gestión de inundaciones en cuencas de la región.</p>
+        <span class="seedbed__contact">Contacto: [profesor / correo]</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- LÁMINA 03 — PRÁCTICAS -->
+  <section class="sheet" id="practicas">
+    <div class="sheet__head">
+      <span class="sheet__tag">LÁMINA 03</span>
+      <h2 class="sheet__title">Prácticas profesionales</h2>
+      <p class="sheet__intro">
+        Tablero de oportunidades. Las filas de abajo son de ejemplo mientras se
+        gestionan convenios reales con empresas del sector.
+      </p>
+    </div>
+
+    <div class="board" role="table">
+      <div class="board__row board__row--head" role="row">
+        <span role="columnheader">Empresa</span>
+        <span role="columnheader">Área</span>
+        <span role="columnheader">Modalidad</span>
+        <span role="columnheader">Cierre</span>
+      </div>
+      <div class="board__row" role="row">
+        <span data-label="Empresa">Constructora [ejemplo]</span>
+        <span data-label="Área">Interventoría de obra</span>
+        <span data-label="Modalidad">Presencial · Medellín</span>
+        <span data-label="Cierre">Próximamente</span>
+      </div>
+      <div class="board__row" role="row">
+        <span data-label="Empresa">Consultora estructural [ejemplo]</span>
+        <span data-label="Área">Diseño estructural</span>
+        <span data-label="Modalidad">Híbrida</span>
+        <span data-label="Cierre">Próximamente</span>
+      </div>
+      <div class="board__row" role="row">
+        <span data-label="Empresa">Firma de infraestructura [ejemplo]</span>
+        <span data-label="Área">Gestión de proyectos</span>
+        <span data-label="Modalidad">Presencial · Panamá</span>
+        <span data-label="Cierre">Próximamente</span>
+      </div>
+    </div>
+    <p class="board__note">¿Tu empresa ofrece prácticas para estudiantes de Civil? <a href="#participar">Escríbenos</a>.</p>
+  </section>
+
+  <!-- LÁMINA 04 — DOCUMENTOS -->
+  <section class="sheet sheet--alt" id="documentos">
+    <div class="sheet__head">
+      <span class="sheet__tag">LÁMINA 04</span>
+      <h2 class="sheet__title">Documentos académicos</h2>
+      <p class="sheet__intro">
+        Lo que hoy se pide por WhatsApp o se pierde entre semestres, reunido en un
+        solo lugar.
+      </p>
+    </div>
+
+    <div class="doc-grid">
+      <div class="doc-group">
+        <h3>Reglamentos y normativas</h3>
+        <ul>
+          <li><a href="#">Reglamento estudiantil <span class="tag-example">Ejemplo</span></a></li>
+          <li><a href="#">Normativa de representación estudiantil</a></li>
+        </ul>
+      </div>
+      <div class="doc-group">
+        <h3>Formatos y formularios</h3>
+        <ul>
+          <li><a href="#">Formato de anteproyecto de grado</a></li>
+          <li><a href="#">Formato de solicitud de homologación</a></li>
+        </ul>
+      </div>
+      <div class="doc-group">
+        <h3>Guías de laboratorio</h3>
+        <ul>
+          <li><a href="#">Guía — Materiales de construcción</a></li>
+          <li><a href="#">Guía — Mecánica de suelos</a></li>
+        </ul>
+      </div>
+      <div class="doc-group">
+        <h3>Banco de fórmulas</h3>
+        <ul>
+          <li><a href="#">Fórmulas — Resistencia de materiales</a></li>
+          <li><a href="#">Fórmulas — Hidráulica</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- LÁMINA 05 — VIDA PROFESIONAL -->
+  <section class="sheet" id="vida-profesional">
+    <div class="sheet__head">
+      <span class="sheet__tag">LÁMINA 05</span>
+      <h2 class="sheet__title">Acercamiento a la vida profesional</h2>
+      <p class="sheet__intro">
+        Encuentros para conocer experiencias, oportunidades y todo eso que nadie
+        explica antes de graduarse.
+      </p>
+    </div>
+
+    <ul class="event-list">
+      <li class="event">
+        <div class="event__date">
+          <span class="event__day">--</span>
+          <span class="event__month">2026</span>
+        </div>
+        <div class="event__body">
+          <h3>Charla: primeros años como interventor de obra <span class="tag-example">Ejemplo</span></h3>
+          <p>Conversatorio con un egresado sobre el salto de la universidad a una obra real.</p>
+        </div>
+      </li>
+      <li class="event">
+        <div class="event__date">
+          <span class="event__day">--</span>
+          <span class="event__month">2026</span>
+        </div>
+        <div class="event__body">
+          <h3>Panel: mujeres en ingeniería civil <span class="tag-example">Ejemplo</span></h3>
+          <p>Espacio para escuchar experiencias reales y hablar de lo que aún falta por mejorar en la carrera.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- PARTICIPAR -->
+  <section class="participate" id="participar">
+    <div class="participate__inner">
+      <span class="sheet__tag">LÁMINA 06</span>
+      <h2>Ahora te toca a ti</h2>
+      <p>
+        Este portal es un piloto. Si crees que vale la pena, dinos qué te gustaría
+        ver aquí; si crees que no, también dínoslo &mdash; con 130 estudiantes en la
+        carrera, prefiero construir lo que de verdad se va a usar.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#">Enviar tu proyecto o idea</a>
+        <a class="btn btn--ghost" href="#">Reportar un error</a>
+      </div>
+      <p class="participate__note">(Los formularios se conectarán en la siguiente versión.)</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefooter">
+  <div class="sitefooter__inner">
+    <div>
+      <strong>Portal Ingeniería Civil EIA</strong>
+      <p>Piloto construido por la representación estudiantil de Ingeniería Civil, período 2026&ndash;2027.</p>
+    </div>
+    <div>
+      <strong>Contacto</strong>
+      <p>[correo institucional] · [Instagram]</p>
+    </div>
+  </div>
+  <p class="sitefooter__legal">Contenido de ejemplo. Ninguna oferta, empresa o dato mostrado aquí es real todavía.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
